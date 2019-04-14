@@ -47,7 +47,7 @@ A Journey planner/Railway Time table for many train lines in europe and australi
 # >> build pre
 # << build pre
 
-%qtc_qmake5 
+%qtc_qmake5 openrepos=1
 
 %qtc_make %{?_smp_mflags}
 
